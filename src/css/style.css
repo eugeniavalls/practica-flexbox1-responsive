@@ -23,5 +23,140 @@ a {
 
 body {
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+/* Este sería las propiedades para movil */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* Este mediaquery seria escritorio) */
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 920px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+}
+
+.card {
+  width: 307px;
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Este sería las propiedades para movil */
+.card-orange {
+  background-color: #e28625;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Este mediaquery seria escritorio) */
+@media screen and (min-width: 768px) {
+  .card-orange {
+    background-color: #e28625;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+}
+
+.card-blue {
+  background-color: #006971;
+}
+
+/* Este sería las propiedades para movil */
+.card-green {
+  background-color: #004140;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Este mediaquery seria escritorio) */
+@media screen and (min-width: 768px) {
+  .card-green {
+    background-color: #004140;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.circle {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.car {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.title {
+  color: white;
+  font-size: xx-large;
+}
+
+.text {
+  color: white;
+  line-height: 25px;
+  font-size: small;
+}
+
+.button {
+  text-decoration: none;
+  border: 2px solid white;
+  width: 146px;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 11px 31px;
+  text-align: center;
+  margin-top: auto;
+  font-size: small;
+  background-color: white;
+}
+
+.button-orange {
+  color: #e28625;
+}
+
+.button-blue {
+  color: #006971;
+}
+
+.button-green {
+  color: #004140;
+}
+
+.button:hover {
+  color: white;
+  background-color: transparent;
 }
