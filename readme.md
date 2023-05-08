@@ -2,14 +2,14 @@
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica-flexbox1-responsive/main/src/assets/screenshots/01.png)
 
-## Ejemplo en vivo
-
-- [Vista en vivo](URL-de-github-pages-de-este-proyecto)
 
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Ejercicio para poner en práctica las propiedades de display (flex, block) además de las características de esta propiedad (align-items, justify-content, flex-direction). Uso de la propiedad position. 
+Realización de la práctica en responsive para ordenador y móvil. 
+Uso de hover en los botones para la versión de ordenador.
+
 
 ## Tecnologías 🛠
 
