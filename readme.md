@@ -2,14 +2,15 @@
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica-flexbox1-responsive/main/src/assets/screenshots/01.png)
 
+## Ejemplo en vivo
 
+- [Vista en vivo](https://eugeniavalls.github.io/practica-flexbox2-responsive/)
 
 ## Descripción 📑
 
-Ejercicio para poner en práctica las propiedades de display (flex, block) además de las características de esta propiedad (align-items, justify-content, flex-direction). Uso de la propiedad position. 
-Realización de la práctica en responsive para ordenador y móvil. 
+Ejercicio para poner en práctica las propiedades de display (flex, block) además de las características de esta propiedad (align-items, justify-content, flex-direction). Uso de la propiedad position.
+Realización de la práctica en responsive para ordenador y móvil.
 Uso de hover en los botones para la versión de ordenador.
-
 
 ## Tecnologías 🛠
 
@@ -17,7 +18,6 @@ Uso de hover en los botones para la versión de ordenador.
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
-
 
 ## Vista previa del proyecto
 
